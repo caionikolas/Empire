@@ -1,6 +1,6 @@
 import { Container } from "./style";
-import logoMarca from "../../assets/Frame.svg"
-import menu from "../../assets/bars-solid2.svg"
+import logoMarca from "../../../assets/logoMarca.svg"
+import menu from "../../../assets/menu.svg"
 
 function Nav(){
     return(

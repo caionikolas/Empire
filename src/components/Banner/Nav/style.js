@@ -5,36 +5,34 @@ export const Container = styled.div`
 
     
     @media (max-width: 428px){
-        background: #3B200B0D;
-        color: rgba(29, 6, 5, 0.9);
+        background: rgba(59, 32, 11, 0.05);
         display: flex;
         justify-content: space-between;
         width: 428px;
         height: 63.87px;
-
         .logoMarca{
-
             height: 35.19px;
             width: 264.69px;
-            display: flex;
-            justify-content: flex-start;
-            margin-left: 24px;
             margin-top: 14.34px;
-            margin-bottom: 14.34px;
-
+            margin-left: 24px;
+            display: flex;
+            color: rgba(29, 6, 5, 0.9);
                 img{
-                width: 30px;
-                height: 30px;
-                color: rgba(29, 6, 5, 0.9);
+                width: 29.49px;
+                height: 30.81px;
                 }
                 h1{
                 width: 231px;
                 height: 33px;
-                font-family: 'Lato', sans-serif;
-                font-weight: 400;
-                font-size: 29.38px;
-                line-height: 2rem;
+                margin-top: 1.99px;
                 margin-left: 4.2px;
+                font-family: 'Lato', sans-serif;
+                font-style: mixed;
+                text-align: left;
+                vertical-align: top;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 32.32px;
                     span{
                         font-weight: 900;
                     }
@@ -43,13 +41,13 @@ export const Container = styled.div`
         .menu{       
             width: 30px;
             height: 30px;
-            margin: 16.94px;
             border-radius: 3px;
             border: none;
-
+            margin-top: 16.94px;
+            margin-right: 16.94px;
+            background: rgba(29, 6, 5, 0.15);
             :hover{
-                background: #3B200B0D;
-                color: rgba(29, 6, 5, 0.9);
+                background: rgba(29, 6, 5, 0.15);
             }
         }
     }
