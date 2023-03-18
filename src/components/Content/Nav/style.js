@@ -11,7 +11,9 @@ export const Container = styled.div`
         justify-content: space-between;
         width: 428px;
         height: 63.87px;
+
         .logoMarca{
+
             height: 35.19px;
             width: 264.69px;
             display: flex;
@@ -19,6 +21,7 @@ export const Container = styled.div`
             margin-left: 24px;
             margin-top: 14.34px;
             margin-bottom: 14.34px;
+
                 img{
                 width: 30px;
                 height: 30px;
@@ -42,7 +45,12 @@ export const Container = styled.div`
             height: 30px;
             margin: 16.94px;
             border-radius: 3px;
-            cursor: pointer;
+            border: none;
+
+            :hover{
+                background: #3B200B0D;
+                color: rgba(29, 6, 5, 0.9);
+            }
         }
     }
 `

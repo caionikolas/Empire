@@ -1,6 +1,6 @@
 import { Container } from "./style";
-import logoMarca from "../../assets/frame.svg"
-import menu from "../../assets/bars-solid 2.svg"
+import logoMarca from "../../assets/Frame.svg"
+import menu from "../../assets/bars-solid2.svg"
 
 function Nav(){
     return(
@@ -9,7 +9,7 @@ function Nav(){
                 <img src={logoMarca}/>
                 <h1><span>EMPIRE</span> BURGER</h1>
             </div>
-            <img className="menu" src={menu}/>
+            <button className="menu"><img src={menu}/></button>
         </Container>
     )
 }
