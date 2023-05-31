@@ -1,0 +1,105 @@
+.start .img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    z-index: -1;
+}
+
+.start h3{
+    font-family: 'Lato', sans-serif;
+    color: rgba(29, 6, 5, 0.9);
+    font-weight: 700;
+    font-size: 1.12rem;
+    line-height: 2rem;
+}
+
+.start h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 3.33rem;
+    line-height: 3.66rem;
+    font-weight: 400;
+    color: rgba(59, 32, 11, 1);
+}
+
+.start h1 span{
+    color: #F59A1B;
+
+}
+
+.grupo{
+    padding: 6.31rem 5.13rem 36.68rem 1.5rem;
+    width: max-content;
+   
+}
+
+.start .grupo p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(29, 6, 5, 0.69);
+    margin-bottom: 1rem;
+}
+
+.start .grupo p span{
+    font-weight: 900;
+    background-color:rgba(245, 154, 27, 1);
+    border-radius: 5px;
+}
+
+.start .grupo button{
+    background: #F43127;
+    border-radius: 5.0px;
+    padding: 0.6rem 1.2rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.3rem;
+    border-style: none;
+
+}
+
+.todo{
+    height: 6.72rem;
+    width: 22.22rem;
+    display: flex;
+    padding: 1.28rem;
+}
+
+.qualifications{
+    background-color: white;
+    height: 20.18rem;
+    width: 22.22rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 0.34rem .98rem;
+}
+
+.qualifications .todo .icon{
+    padding-right: 1.125rem;
+}
+
+.qualifications .todo h2{
+    
+    font-family: 'Lilita One', cursive;
+    color: #1D0605E5;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.qualifications .todo p{
+    font-family:  'Lato', sans-serif;
+    font-weight: 400;
+    opacity: 60%;
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+
+.qualification .todo .underline::after{
+    content:"";
+    height: 1px;
+    width: 18.3rem;
+    background-color: #492e1525;
+    
+}
