@@ -13,8 +13,6 @@ header{
     .logo{
         font-size: 0.8rem;
         color: rgba(29, 6, 5, 0.9);
-        font-family: var(--);
-        font-weight: 900;
         height: 2.2rem;
         width: 16.5rem;
         display: flex;

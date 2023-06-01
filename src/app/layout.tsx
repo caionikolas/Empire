@@ -13,7 +13,7 @@ export const lilitaOne = Lilita_One({
   variable: '--font-lilitaOne'
  })
 
-export const metadata = {
+const metadata = {
   title: 'Empire Burger',
   description: '',
 }
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${lato.className} ${lilitaOne.className}`}>{children}</body>
+      <body className={`${lato.className}  `}>{children}</body>
     </html>
   )
 }
