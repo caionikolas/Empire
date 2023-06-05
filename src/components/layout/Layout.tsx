@@ -5,6 +5,8 @@ import Phone from '../../assets/images/fone.svg'
 import Delivery from '../../assets/images/delivery.svg'
 import './layout.css'
 
+import { lilitaOne } from '@/app/layout'
+
 export default function Layout() {
     return (
         <>
@@ -17,7 +19,7 @@ export default function Layout() {
                 </div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>
-                    <h1>KING <span>BURGER</span></h1>
+                    <h1 className={lilitaOne.className}>KING <span>BURGER</span></h1>
                     <p>Para quem tem um <span>Apetite de um REI!</span></p>
                     <button>Comprar Agora</button>
                 </div>

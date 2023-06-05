@@ -1,16 +1,16 @@
 import './globals.css'
 import { Lato, Lilita_One  } from 'next/font/google'
 
-export const lato = Lato({ 
+const lato = Lato({ 
   subsets: ['latin'],
   weight: ['100', '300', '400', '700' , '900'],
-  variable: '--font-lato'
+  display: 'swap'
 })
 
 export const lilitaOne = Lilita_One({ 
   subsets: ['latin'],
   weight: '400',
-  variable: '--font-lilitaOne'
+  display: 'swap'
  })
 
 const metadata = {
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${lato.className}  `}>{children}</body>
+      <body className={lato.className}>{children}</body>
     </html>
   )
 }
