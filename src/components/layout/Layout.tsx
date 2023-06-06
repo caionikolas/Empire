@@ -33,7 +33,7 @@ export default function Layout() {
                             />
                         </div>
                         <div>
-                            <h2>ARTESANAL</h2>
+                            <h2  className={lilitaOne.className}>ARTESANAL</h2>
                             <p>Nossas receitas são <br/> feitas com todo cuidado</p>
                             <div className="underline"></div>
                         </div>
@@ -46,7 +46,7 @@ export default function Layout() {
                             />
                         </div>
                         <div>
-                            <h2>ATENDIMENTO</h2>
+                            <h2  className={lilitaOne.className}>ATENDIMENTO</h2>
                             <p>Totalmente <br/> personalizado</p>
                             <div className="underline"></div>
                         </div>
@@ -59,7 +59,7 @@ export default function Layout() {
                             />
                         </div>
                         <div>
-                            <h2>DELIVERY SPEED</h2>
+                            <h2  className={lilitaOne.className}>DELIVERY SPEED</h2>
                             <p>Entregamos menos de <br/> 30 minutos</p>
                         </div>
                     </div>

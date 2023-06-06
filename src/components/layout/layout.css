@@ -8,7 +8,6 @@
 }
 
 .start h3{
-    font-family: 'Lato', sans-serif;
     color: rgba(29, 6, 5, 0.9);
     font-weight: 700;
     font-size: 1.12rem;
@@ -24,13 +23,11 @@
 
 .start h1 span{
     color: #F59A1B;
-
 }
 
 .grupo{
     padding: 6.31rem 5.13rem 36.68rem 1.5rem;
     width: max-content;
-   
 }
 
 .start .grupo p{
@@ -45,6 +42,7 @@
     font-weight: 900;
     background-color:rgba(245, 154, 27, 1);
     border-radius: 5px;
+    padding: 0 .2rem;
 }
 
 .start .grupo button{
@@ -52,11 +50,9 @@
     border-radius: 5.0px;
     padding: 0.6rem 1.2rem;
     color: white;
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     line-height: 1.3rem;
     border-style: none;
-
 }
 
 .todo{
@@ -67,11 +63,13 @@
 }
 
 .qualifications{
+    position: absolute;
+    top: 46.75rem;
+    left: 2.26rem;
     background-color: white;
     height: 20.18rem;
     width: 22.22rem;
     border-radius: 10px;
-    border: 2px solid black;
     padding: 0.34rem .98rem;
 }
 
@@ -80,15 +78,12 @@
 }
 
 .qualifications .todo h2{
-    
-    font-family: 'Lilita One', cursive;
     color: #1D0605E5;
     font-weight: 400;
     opacity: 80%;
 }
 
 .qualifications .todo p{
-    font-family:  'Lato', sans-serif;
     font-weight: 400;
     opacity: 60%;
     line-height: 1.2rem;

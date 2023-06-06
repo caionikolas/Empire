@@ -10,6 +10,10 @@ header{
     padding: 1rem 2rem;
     }
     
+header h1{
+    font-weight: 900;
+}
+
     .logo{
         font-size: 0.8rem;
         color: rgba(29, 6, 5, 0.9);
