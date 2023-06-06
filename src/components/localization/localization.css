@@ -1,0 +1,79 @@
+#localization {
+    width: 26.75rem;
+    text-align: center;
+    padding-top: 2.37rem;
+}
+
+#localization .time{
+    display:flex;
+    width: 23.74rem;
+    height: 6.91rem;
+    background: rgba(244, 49, 39, 1);
+    padding: 1.17rem .81rem;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+}
+
+#localization .time .timer{
+    width: 4.56rem;
+    height: 4.56rem;
+    background: #1D060533;
+    padding: .8rem 1.06rem;
+    border-radius: 50%;
+    margin-right: .87rem;
+}
+
+#localization .time .time-operation{
+    border-left: 2px solid #1D060533;
+    padding-left: .87rem;
+}
+
+#localization .time .time-operation h3{
+    font-size: 1.125rem;
+    line-height: 1.57rem;
+    color: rgba(29, 6, 5, 0.69);
+}
+
+#localization .time .time-operation p{
+    font-size: .875rem;
+    line-height: 1.22rem;
+    color: rgba(255, 255, 255, 0.85);
+
+}
+
+
+#localization .hashtag{
+    padding: 4rem 1.5rem;
+    height: max-content;
+}
+
+
+#localization .hashtag p{
+    padding-left: .5rem;
+    font-size: 1.125rem;
+    color: rgba(29, 6, 5, 0.69);
+    padding-bottom: .25rem;
+}
+
+
+#localization .hashtag h2{
+    font-size: 2.56rem;
+    line-height: 1.75rem;
+    padding-left: 2rem;
+    color: rgba(244, 49, 39, 1);
+    text-transform: uppercase;
+}
+
+#localization h3{
+    font-size: 1.56rem;
+    color: rgba(29, 6, 5, 0.9);
+    line-height: 1.71rem;
+    text-transform: uppercase;
+}
+
+#localization p{
+    line-height: 1.4rem;
+    color: rgba(29, 6, 5, 0.69);
+
+}
+
