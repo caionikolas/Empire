@@ -10,7 +10,7 @@ import { lilitaOne } from '@/app/layout'
 export default function Layout() {
     return (
         <>
-            <section className="start">
+            <section id="start">
                 <div className='img'>
                     <Image 
                         src={Banner}

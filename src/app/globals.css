@@ -4,7 +4,19 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #faf3f2;
+}
+
 div{
   font-weight: 400;
+}
+
+a{
+  text-decoration: none;
 }
 

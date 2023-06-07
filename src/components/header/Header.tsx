@@ -20,18 +20,20 @@ export default function Header() {
     return (
         <>
             <header className={lato.className}>
-                <div className="logo">
-                    <div className="img" >
-                        <div className={lilitaOne.className}>
-                            <Image 
-                                src={Logo}
-                                alt='logo Empire Burger'
-                            />
+                <a href="#start">
+                    <div className="logo">
+                        <div className="img" >
+                            <div className={lilitaOne.className}>
+                                <Image 
+                                    src={Logo}
+                                    alt='logo Empire Burger'
+                                />
+                            </div>
+                            
                         </div>
-                        
+                        <h1>EMPIRE <span>BURGER</span></h1>
                     </div>
-                    <h1>EMPIRE <span>BURGER</span></h1>
-                </div>
+                </a>
                 <nav>
                     <Image 
                         src={Menu}

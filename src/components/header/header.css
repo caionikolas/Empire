@@ -21,7 +21,6 @@ header h1{
         width: 16.5rem;
         display: flex;
         align-items: center;
-    
     }
     
     .logo .img{
@@ -33,3 +32,7 @@ header h1{
     .logo span{
         font-weight: 400;
     }
+
+header nav{
+    cursor: pointer;
+}
