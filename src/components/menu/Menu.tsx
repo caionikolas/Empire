@@ -27,10 +27,12 @@ export default function Menu(){
                 <h2 className={lilitaOne.className}>Ofertas especiais</h2>
                 <p>Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando o nosso cardapio.</p>
                 <div className="lanche">
-                    <Image 
-                        src={Burger}
-                        alt="Burguer"
-                    />
+                    <div className="img-lanche">
+                        <Image 
+                            src={Burger}
+                            alt="Burguer"
+                        />
+                    </div>
                     <div className="left-title">
                         <h3 className={lilitaOne.className}>Burger Prime+Batata</h3>
                         <p>250kg</p>
@@ -41,20 +43,24 @@ export default function Menu(){
                 </div>
                 
                 <div className="lanche">
-                    <Image 
-                        src={Fries}
-                        alt="Burguer"
-                    />
+                    <div className="img-lanche">
+                        <Image 
+                            src={Fries}
+                            alt="Burguer"
+                        />
+                    </div>
                     <div className="left-title">
                         <h3 className={lilitaOne.className}>Batata</h3>
                         <p>150kg</p>
                     </div>
                 </div>
                 <div className="lanche">
-                    <Image 
-                        src={iceCream}
-                        alt="Burguer"
-                    />
+                    <div className="img-lanche">
+                        <Image 
+                            src={iceCream}
+                            alt="Burguer"
+                        />
+                    </div>
                     <div className="left-title">
                         <h3 className={lilitaOne.className}>Sorvete</h3>
                         <p>50kg</p>

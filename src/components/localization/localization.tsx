@@ -25,10 +25,10 @@ export default function Localization(){
                     <h2 className={lilitaOne.className}>#empireburger</h2>
                 </div>
                 
-                <h3 className={lilitaOne.className}>Onde ficar a nosso castelo</h3>
+                <h3 className={lilitaOne.className}>Onde fica nosso castelo</h3>
                 <p>Estaremos de portas abertas para a nossa realeza.</p>
                 <div className="map">
-
+                    <h1>mapa aqui</h1>
                 </div>
             </div>
         </>
