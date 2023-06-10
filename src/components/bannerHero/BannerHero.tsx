@@ -7,7 +7,7 @@ import './layout.css'
 
 import { lilitaOne } from '@/app/layout'
 
-export default function Layout() {
+export default function BannerHero() {
     return (
         <>
             <section id="start">

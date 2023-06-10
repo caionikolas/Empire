@@ -7,7 +7,7 @@ import Fries from "../../assets/images/french-fries.png"
 import iceCream from "../../assets/images/ice-cream.png"
 import { lilitaOne } from "@/app/layout"
 
-export default function Menu(){
+export default function Offers(){
     const Lanches = {
         1: {
             nome: "Burger Prime+Batata",
