@@ -1,3 +1,5 @@
+'use client';
+
 import "./menu.css"
 import Image from "next/image"
 import Burger from "../../assets/images/burguer.png"
@@ -6,7 +8,7 @@ import iceCream from "../../assets/images/ice-cream.png"
 import { lilitaOne } from "@/app/layout"
 
 export default function Menu(){
-    const lanches = {
+    const Lanches = {
         1: {
             nome: "Burger Prime+Batata",
             peso: "250kg"
@@ -32,8 +34,8 @@ export default function Menu(){
                         alt="Burguer"
                     />
                     <div className="left-title">
-                        <h3 className={lilitaOne.className}>Burger Prime+Batata</h3>
-                        <p>250kg</p>
+                        <h3 className={lilitaOne.className}>{Lanches[1].nome}</h3>
+                        <p>{Lanches[1].peso}</p>
                     </div>
                     <div className="right-title">
                         <p> Apenas <br /> <strong className={lilitaOne.className}>Hoje</strong></p>
@@ -43,21 +45,22 @@ export default function Menu(){
                 <div className="lanche">
                     <Image 
                         src={Fries}
-                        alt="Burguer"
+                        alt="Batata Frita"
                     />
                     <div className="left-title">
-                        <h3 className={lilitaOne.className}>Batata</h3>
-                        <p>150kg</p>
+                        <h3 className={lilitaOne.className}>{Lanches[2].nome}</h3>
+                        <p>{Lanches[2].peso}</p>
                     </div>
                 </div>
+
                 <div className="lanche">
                     <Image 
                         src={iceCream}
-                        alt="Burguer"
+                        alt="Sorvete"
                     />
                     <div className="left-title">
-                        <h3 className={lilitaOne.className}>Sorvete</h3>
-                        <p>50kg</p>
+                        <h3 className={lilitaOne.className}>{Lanches[3].nome}</h3>
+                        <p>{Lanches[3].peso}</p>
                     </div>
                 </div>
             </div>
