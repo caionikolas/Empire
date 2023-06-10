@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src=".github/logo.png" width="300px" />
+</h1>
 
-## Getting Started
+<p align="center">
+  <img src=".github/preview.jpeg" width="100%" />
+</p>
 
-First, run the development server:
+## 💻 Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Esse projeto é uma landing page de uma hamburgueria fictícia chamada **Empire Burger**, nela há seções sobre as ofertas especiais, horário de funcionamento, cardápio contendo os ingredientes e preços, cards com os feedbacks dos clientes e a localização do estabelecimento.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design [**Tiago Alves**](https://www.behance.net/tiagofenixe9d9), [clique aqui](https://www.figma.com/file/ag4Az50adOF53pBrwI0wFg/Empire-Burger?node-id=0%3A1) para abrir o protótipo no figma.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologias
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [NextJS](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Item 3](http://localhost:3000/)
 
-## Learn More
+## 📝 ObJetivos
+### Nível Fácil
 
-To learn more about Next.js, take a look at the following resources:
+- [X] Criar as seguintes seções: Menu, Banner hero, Ofertas especiais, Onde fica o nosso castelo, Footer.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [X] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [ ] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
 
-## Deploy on Vercel
+- [X] As informações do card da oferta(nome do prato e gramagem) devem estar no html, a única imagem deve ser a foto do prato com o preço.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Na seção Onde fica o nosso castelo você deverá incorporar uma localização do google maps.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Nível Médio
+
+- [ ] Todos os requisitos do nivel fácil.
+
+- [ ] Criar as seguintes seções: Cardápio, Atendimento, Nossas entregas.
+
+- [ ] Na seção Cardápio os preços devem ser formatados com o método Intl.NumberFormat.
+
+- [ ] O card Horário de funcionamento deverá ter os estados aberto e fechado, o estado será alterado conforme o horário do navegador do usuário.
+
+### Nível Difícil
+
+- [ ] Todos os requisitos do nivel fácil e médio
+
+- [ ] Criar as seguintes seções: Nossa realeza, Publicações do instagram.
+
+- [ ] Buscar a lista de itens do cardápio via api.
+
+- [ ] Buscar a lista de depoimentos via api.
+
+- [ ] Na seção Nossa realeza os depoimentos deverão estar em um carrousel funcional.
+
+- [ ] O texto de cada depoimento deverá estar limitado em quatro linhas, você pode usar a propriedade clamp do css.
