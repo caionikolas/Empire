@@ -53,6 +53,12 @@
     font-weight: 700;
     line-height: 1.3rem;
     border-style: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#start .grupo button:hover{
+    opacity: .9;
 }
 
 .todo{
