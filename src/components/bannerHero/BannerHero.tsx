@@ -18,7 +18,7 @@ export default function BannerHero() {
         <>
             <section id="start" >
                 <div className='img'>
-                    {width < 1024 ? <Image src={Banner}alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger'sizes='100vw'/>}
+                        {width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger'/>}
                 </div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>
