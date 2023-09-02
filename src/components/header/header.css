@@ -60,6 +60,7 @@ header nav{
         align-items: center;
         justify-content: space-between;
         width: 35.75rem;
+        margin: 0 7.5rem;
     }
 
     .menu-nav a.active{

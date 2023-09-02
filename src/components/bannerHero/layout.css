@@ -105,6 +105,10 @@
 }
 
 @media (min-width: 1024px) {
+    #start{
+        margin: 0 29.62rem;
+    }
+
     #start .img{
         width: 100%;
         display: flex;
@@ -113,5 +117,39 @@
     }
     .qualifications{
         top: 30.89rem;
+    }
+    .grupo{
+        padding: 11.1rem 5.13rem 36.68rem 1.5rem;
+        width: max-content;
+    }
+    #start h3{
+        font-size: 1.42rem;
+        line-height: 1.42rem;
+    }
+
+    #start h1{
+        font-size: 4.85rem;
+        line-height: 5.33rem;
+        font-weight: 400;
+        color: rgba(59, 32, 11, 1);
+        text-transform: uppercase;
+    }
+
+    #start .grupo p{
+        font-size: 1.42rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        line-height: 2rem;
+    }
+
+    #start .grupo button{
+        border-radius: .31rem;
+        font-weight: 700;
+        line-height: 2rem;
+        font-size: 1.42rem;
+    }
+    
+    #start .grupo button:hover{
+        opacity: .9;
     }
 }
