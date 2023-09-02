@@ -36,3 +36,64 @@ header h1{
 header nav{
     cursor: pointer;
 }
+
+.menu-web{
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    header{
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+    .logo{
+        margin-right: 1.61rem;
+    }
+    .menu-mobile{
+        display: none;
+    }
+
+    .menu-web{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 35.75rem;
+    }
+
+    .menu-nav a.active{
+        font-weight: 700;
+    }
+
+    .menu-nav a{
+        margin-right: 1rem;
+        color: #34201F;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.575rem;
+        
+    }
+
+    .menu-icon{
+        display: flex;
+        align-items: center;
+        margin-left: 4.31rem;
+    }
+
+    .menu-icon :not(:last-child){
+        margin-right: .81rem;
+    }
+
+    .wpp{
+        display: inline-flex;
+        padding: 5px 20px;
+        align-items: center;
+        border-radius: 4px;
+        background:#F59A1B;
+        transition: .3s all; 
+    }
+    .wpp:hover{
+        opacity: .8;
+    }
+}

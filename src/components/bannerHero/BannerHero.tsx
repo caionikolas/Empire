@@ -1,21 +1,24 @@
+'use client'
+
 import Image from 'next/image'
 import Banner from '../../assets/images/Banner mobile 1.png'
 import Burger from '../../assets/images/burguer.svg'
 import Phone from '../../assets/images/fone.svg'
 import Delivery from '../../assets/images/delivery.svg'
+import BannerWeb from '../../assets/images/banner-hero-web.png'
 import './layout.css'
+import useWindowDimension from 'use-window-dimensions';
 
 import { lilitaOne } from '@/app/layout'
 
 export default function BannerHero() {
+    const { width }  = useWindowDimension();
+
     return (
         <>
-            <section id="start">
+            <section id="start" >
                 <div className='img'>
-                    <Image 
-                        src={Banner}
-                        alt='Banner Empire Burger'
-                    />
+                    {width < 1024 ? <Image src={Banner}alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger'sizes='100vw'/>}
                 </div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>

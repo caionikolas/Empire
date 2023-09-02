@@ -103,3 +103,17 @@
     background-color: #492e1525;
     
 }
+
+@media (min-width: 1024px) {
+
+    .qualifications{
+        position: absolute;
+        top: 30.89rem;
+        left: 2.26rem;
+        background-color: white;
+        height: 20.18rem;
+        width: 22.22rem;
+        border-radius: 10px;
+        padding: 0.34rem .98rem;
+    }
+}
