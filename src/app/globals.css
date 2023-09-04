@@ -10,6 +10,7 @@ html {
 
 body{
   background-color: #faf3f2;
+  overflow-x: hidden;
 }
 
 div{

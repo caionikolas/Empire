@@ -45,7 +45,6 @@ export default function Header() {
                         
                     />
                 </nav>
-                <nav className={`menu-web $`}>
                     <div className="menu-nav">
                         <a href="#start" className="active">Home</a>
                         <a href="#menu">Promoção</a>
@@ -75,7 +74,6 @@ export default function Header() {
                             <p>Contato</p>
                         </div>
                     </div>
-                </nav>
             </header>
         </>   
     )

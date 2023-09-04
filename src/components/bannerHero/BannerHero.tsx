@@ -13,12 +13,12 @@ import { lilitaOne } from '@/app/layout'
 
 export default function BannerHero() {
     const { width }  = useWindowDimension();
-
+    
     return (
         <>
             <section id="start" >
                 <div className='img'>
-                        {width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger'/>}
+                    {width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger' width={1920} height={545}/>}
                 </div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>
