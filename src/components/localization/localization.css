@@ -30,16 +30,20 @@
 }
 
 #localization .time .time-operation h3{
-    font-size: 1.125rem;
-    line-height: 1.57rem;
     color: rgba(29, 6, 5, 0.69);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem;
+    text-transform: uppercase;
 }
 
 #localization .time .time-operation p{
-    font-size: .875rem;
-    line-height: 1.22rem;
     color: rgba(255, 255, 255, 0.85);
-
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.225rem;
 }
 
 
@@ -66,15 +70,79 @@
 }
 
 #localization h3{
-    font-size: 1.56rem;
-    color: rgba(29, 6, 5, 0.9);
-    line-height: 1.71rem;
+    color: rgba(29, 6, 5, 0.90);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
     text-transform: uppercase;
 }
 
 #localization p{
-    line-height: 1.4rem;
     color: rgba(29, 6, 5, 0.69);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+#localization .map{
+    width: 26.75rem;
+    height: 12.95488rem;
+    flex-shrink: 0;
+}
 
+@media (min-width: 1024px){
+    #localization{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1175px;
+    }
+    #localization .th{
+        width: 60%;
+    }
+    #localization .th .timer-hash{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 65.68rem;
+        max-width: 1175px;
+        align-items: center;
+        margin-left: -.5rem;
+        padding-bottom: 5.27rem;
+    }
+    #localization .time{
+        width: 35.625rem;
+        height: 8.18344rem;
+        flex-shrink: 0;
+    }
+
+    #localization .time .time-operation h3{
+        font-size: 1.5625rem;
+        line-height: 1.71875rem;
+    }
+
+    #localization .time .time-operation p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    #localization .time .timer{
+        width: 5.9rem;
+        height: 5.9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #localization h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    #localization .ploc{
+        padding-bottom: 2rem;
+    }
+    #localization .map{
+        position: absolute;
+        left: 0;
+        width: 120.09363rem;
+        height: 12.95488rem;
+    }
 }
 

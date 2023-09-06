@@ -5,8 +5,11 @@
 }
 
 #menu h2{
-    font-size: 1.56rem;
-    line-height: 1.71rem;
+    color: rgba(29, 6, 5, 0.90);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
 }
 
 #menu h2, #menu h3{
@@ -14,9 +17,12 @@
 }
 
 #menu p{
+    color: rgba(29, 6, 5, 0.69);
     font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
     line-height: 1.4rem;
-    padding: .5rem 0;
+    padding-bottom: 1rem;
 }
 
 #menu .lanche{
@@ -34,15 +40,37 @@
     left: 1.27rem;
 }
 
-#menu .lanche .left-title h3{
-    margin-bottom: -10px;
-    text-transform: uppercase;
-    font-size: 1.28rem;
-    line-height: 1.40rem;
+#menu .lanche .img-lanche2{
+    padding-bottom: .5rem;
+}
+
+#menu .lanche .img-lanche3 .left-title{
+    position: absolute;
+    top: 15rem;
+    left: 1.27rem;
+}
+
+#menu .lanche  .left-title h3{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 1.2805rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4085rem;
 }
 
 #menu .lanche .left-title p{
-    font-weight: 300;
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 1.15244rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.61338rem;
+}
+
+#menu .lanche .img-lanche2 .left-title h3,
+#menu .lanche .img-lanche2 .left-title p,
+#menu .lanche .img-lanche3 .left-title h3,
+#menu .lanche .img-lanche3 .left-title p{
+    color: rgba(29, 6, 5, 0.90);
 }
 
 #menu .lanche .right-title{
@@ -52,24 +80,75 @@
 }
 
 #menu .lanche .right-title p{
-    font-size: 0.68rem;
-    line-height: .75rem;
-    font-weight: 200;
-    
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 0.682rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.74725rem;
 }
 
 #menu .lanche .right-title p strong{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 1.24538rem;
+    line-height: 0.81544rem;
     text-transform: uppercase;
-    font-size: 1.24rem;
-    line-height: .81rem;
 }
 
 @media (min-width: 1024px) {
     #menu{
         padding: 2rem 0 0 0;
-        margin: 0;
+        width: 71.3rem;
+        margin: 0 auto;
     }
+
+    #menu h2{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    #menu p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    #menu .lanche  .left-title h3{
+        font-size: 1.5625rem;
+        line-height: 1.71875rem;
+    }
+    
+    #menu .lanche .left-title p{
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+    }
+
+    #menu .lanche .right-title p{
+        font-size: 1.4375rem;
+        line-height: 1.575rem;
+        padding-right: 1rem;
+    }
+    
+    #menu .lanche .right-title p strong{
+        font-size: 2.625rem;
+        line-height: 1.71875rem;
+    }
+
     #menu .lanches{
         display: grid;
+        grid-template-columns: 69% 31%; 
+        
     }
+    #menu .lanches .lanche .img-lanche{
+        width: 48.12rem;
+        height: 26.87rem;
+    }
+
+    #menu .lanche .img-lanche2{
+        padding-bottom: 1rem;
+    }
+
+    #menu .lanche{
+        padding: 0;
+    }
+    
+
 }

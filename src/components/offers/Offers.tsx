@@ -6,8 +6,12 @@ import Burger from "../../assets/images/burguer.png"
 import Fries from "../../assets/images/french-fries.png"
 import iceCream from "../../assets/images/ice-cream.png"
 import { lilitaOne } from "@/app/layout"
+import useWindowDimension from 'use-window-dimensions';
+import BurgerWeb from "../../assets/images/oferta-1.png"
 
 export default function Offers(){
+    const { width }  = useWindowDimension();
+
     const Lanches = {
         1: {
             nome: "Burger Prime+Batata",
@@ -28,13 +32,10 @@ export default function Offers(){
             <div id="menu">
                 <h2 className={lilitaOne.className}>Ofertas especiais</h2>
                 <p>Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando o nosso cardapio.</p>
-                <div className="lanches">
+                <div className="lanches ">
                     <div className="lanche">
                         <div className="img-lanche">
-                            <Image 
-                                src={Burger}
-                                alt="Burguer"
-                            />
+                        {width < 1024 ? <Image src={Burger} alt='Banner Empire Burger'/> : <Image src={BurgerWeb}alt='Banner Empire Burger'/>}
                         </div>
                         <div className="left-title">
                             <h3 className={lilitaOne.className}>{Lanches[1].nome}</h3>
@@ -46,27 +47,27 @@ export default function Offers(){
                     </div>
                     
                     <div className="lanche">
+                        <div className="img-lanche2">
+                            <Image 
+                                src={Fries}
+                                alt="Batata Frita"
+                            />
 
-                        <Image 
-                            src={Fries}
-                            alt="Batata Frita"
-                        />
-
-                        <div className="left-title">
-                            <h3 className={lilitaOne.className}>{Lanches[2].nome}</h3>
-                            <p>{Lanches[2].peso}</p>
+                            <div className="left-title">
+                                <h3 className={lilitaOne.className}>{Lanches[2].nome}</h3>
+                                <p>{Lanches[2].peso}</p>
+                            </div>
                         </div>
-                    </div>
+                        <div className="img-lanche3">
+                            <Image 
+                                src={iceCream}
+                                alt="Sorvete"
+                            />
 
-                    <div className="lanche">
-                        <Image 
-                            src={iceCream}
-                            alt="Sorvete"
-                        />
-
-                        <div className="left-title">
-                            <h3 className={lilitaOne.className}>{Lanches[3].nome}</h3>
-                            <p>{Lanches[3].peso}</p>
+                            <div className="left-title">
+                                <h3 className={lilitaOne.className}>{Lanches[3].nome}</h3>
+                                <p>{Lanches[3].peso}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
