@@ -1,10 +1,9 @@
 import Image from "next/image"
 import Logo from "../../assets/images/logo-color.svg"
 import "./footer.css"
-import { lilitaOne } from "@/app/layout"
+import { lilitaone } from "@/app/layout"
 import Ifood from '../../assets/images/ifood-color.svg'
 import Instagram from '../../assets/images/instagram-color.svg'
-import Line from "../ref/line"
 
 export default function Footer() {
     return (
@@ -14,7 +13,7 @@ export default function Footer() {
                     <a href="#start">
                         <div className="logo">
                             <div className="img" >
-                                <div className={lilitaOne.className}>
+                                <div className={lilitaone.className}>
                                     <Image 
                                         src={Logo}
                                         alt='logo Empire Burger'

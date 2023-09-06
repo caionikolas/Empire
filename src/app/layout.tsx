@@ -8,7 +8,7 @@ const lato = Lato({
   display: 'swap'
 })
 
-export const lilitaOne = Lilita_One({ 
+export const lilitaone = Lilita_One({ 
   subsets: ['latin'],
   weight: '400',
   display: 'swap'
@@ -26,7 +26,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      
       <body className={lato.className}>{children}</body>
     </html>
   )

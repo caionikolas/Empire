@@ -14,7 +14,7 @@ const lato = Lato({
   variable: '--font-lato'
 })
 
-const lilitaOne = Lilita_One({ 
+const lilitaone = Lilita_One({ 
   subsets: ['latin'],
   weight: '400',
   variable: '--font-lilitaOne'
@@ -27,7 +27,7 @@ export default function Header() {
                 <a href="#start">
                     <div className="logo">
                         <div className="img" >
-                            <div className={lilitaOne.className}>
+                            <div className={lilitaone.className}>
                                 <Image 
                                     src={Logo}
                                     alt='logo Empire Burger'

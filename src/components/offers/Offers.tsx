@@ -5,7 +5,7 @@ import Image from "next/image"
 import Burger from "../../assets/images/burguer.png"
 import Fries from "../../assets/images/french-fries.png"
 import iceCream from "../../assets/images/ice-cream.png"
-import { lilitaOne } from "@/app/layout"
+import { lilitaone } from "@/app/layout"
 import useWindowDimension from 'use-window-dimensions';
 import BurgerWeb from "../../assets/images/oferta-1.png"
 
@@ -30,7 +30,7 @@ export default function Offers(){
     return (
         <>
             <div id="menu">
-                <h2 className={lilitaOne.className}>Ofertas especiais</h2>
+                <h2 className={lilitaone.className}>Ofertas especiais</h2>
                 <p>Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando o nosso cardapio.</p>
                 <div className="lanches ">
                     <div className="lanche">
@@ -38,11 +38,11 @@ export default function Offers(){
                         {width < 1024 ? <Image src={Burger} alt='Banner Empire Burger'/> : <Image src={BurgerWeb}alt='Banner Empire Burger'/>}
                         </div>
                         <div className="left-title">
-                            <h3 className={lilitaOne.className}>{Lanches[1].nome}</h3>
+                            <h3 className={lilitaone.className}>{Lanches[1].nome}</h3>
                             <p>{Lanches[1].peso}</p>
                         </div>
                         <div className="right-title">
-                            <p> Apenas <br /> <strong className={lilitaOne.className}>Hoje</strong></p>
+                            <p> Apenas <br /> <strong className={lilitaone.className}>Hoje</strong></p>
                         </div>
                     </div>
                     
@@ -54,7 +54,7 @@ export default function Offers(){
                             />
 
                             <div className="left-title">
-                                <h3 className={lilitaOne.className}>{Lanches[2].nome}</h3>
+                                <h3 className={lilitaone.className}>{Lanches[2].nome}</h3>
                                 <p>{Lanches[2].peso}</p>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ export default function Offers(){
                             />
 
                             <div className="left-title">
-                                <h3 className={lilitaOne.className}>{Lanches[3].nome}</h3>
+                                <h3 className={lilitaone.className}>{Lanches[3].nome}</h3>
                                 <p>{Lanches[3].peso}</p>
                             </div>
                         </div>
