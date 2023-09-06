@@ -25,11 +25,11 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 - [X] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
 
-- [ ] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
+- [x] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
 
 - [X] As informações do card da oferta(nome do prato e gramagem) devem estar no html, a única imagem deve ser a foto do prato com o preço.
 
-- [ ] Na seção Onde fica o nosso castelo você deverá incorporar uma localização do google maps.
+- [x] Na seção Onde fica o nosso castelo você deverá incorporar uma localização do google maps.
 
 ### Nível Médio
 
