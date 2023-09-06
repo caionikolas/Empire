@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Logo from '../../assets/images/logo.svg'
-import Menu from '../../assets/images/menu.svg'
 import Ifood from '../../assets/images/ifood.svg'
 import Instagram from '../../assets/images/instagram.svg'
 import Barra from '../../assets/images/barra.svg'
 import Wpp from '../../assets/images/whatsapp.svg'
 import './header.css'
 import { Lato, Lilita_One  } from 'next/font/google'
+import MobileNav from '../mobileNav/mobile'
 
 const lato = Lato({ 
   subsets: ['latin'],
@@ -39,11 +39,7 @@ export default function Header() {
                     </div>
                 </a>
                 <nav className='menu-mobile'>
-                    <Image 
-                        src={Menu}
-                        alt='icone de Menu'
-                        
-                    />
+                    <MobileNav/>
                 </nav>
                 <div className="menu-nav">
                     <a href="#start" className="active">Home</a>

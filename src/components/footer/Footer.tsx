@@ -4,6 +4,7 @@ import "./footer.css"
 import { lilitaOne } from "@/app/layout"
 import Ifood from '../../assets/images/ifood-color.svg'
 import Instagram from '../../assets/images/instagram-color.svg'
+import Line from "../ref/line"
 
 export default function Footer() {
     return (
