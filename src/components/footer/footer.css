@@ -1,16 +1,135 @@
+#footer{
+    width: 100%;
+}
+
+#footer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+#footer .logo .img{
+    margin-top: .2rem;
+}
+
+#footer .logo h1{
+    color: var(--yellow, #F59A1B);
+    font-size: 1.83769rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.02144rem;
+    text-transform: uppercase;
+}
+
+#footer .logo h1 span{
+    font-weight: 400;
+}
+
+#footer .menu-nav a,
+#footer .menu-nav-web a{
+    color: #3A210B;
+    display: block;
+    flex-wrap: nowrap;
+
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem;
+}
+
+#footer .menu-nav .active,
+#footer .menu-nav-web .active{
+    font-weight: 700;
+}
+
+#footer .menu-nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+#footer .menu-icon{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+#footer .copy p{
+    color: rgba(2, 14, 31, 0.69);
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.19588rem;
+    padding: 1rem 0;
+}
+#footer .copy span{
+    color: rgba(2, 14, 31, 0.30);
+    font-weight: 400;
+}
+
+#footer .menu-nav-web{
+    display: none;
+}
+
 @media (min-width: 1024px){
     #footer{
         width: 100%;
-        display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        padding: 16rem 8rem 2rem 8rem;
+        justify-content: space-between;
+        padding: 14rem 0rem 2rem 24rem;
         margin: 0 auto;
     }
     
+    #footer .end{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     #footer .menu-icon{
-        background-color: black;
-        color: black;
+        padding-left: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 0;
+        margin-top: 1rem;
+    }
+    #footer .end::after{
+        background-color: rgba(29, 6, 5, 0.15);
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 90%;
+    }
+    #footer .menu-icon .instagram{
+        cursor: pointer;
+    }
+    #footer .menu-nav-web{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        width: 650px;
+        height: 50px;
+        gap: 2rem;
+    }
+    #footer .menu-nav{
+        display: none;
+    }
+    #footer .copy{
+        position: absolute;
+        left: 0;
+        width: 100%;
     }
 }
 

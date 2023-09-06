@@ -116,6 +116,7 @@
     }
 
     #localization .time .time-operation h3{
+        padding-bottom: .5rem;
         font-size: 1.5625rem;
         line-height: 1.71875rem;
     }

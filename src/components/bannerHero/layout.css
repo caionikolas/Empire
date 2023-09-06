@@ -66,11 +66,12 @@
     opacity: .9;
 }
 
-.todo{
+.qualifications .todo{
     height: 6.72rem;
     width: 22.22rem;
     display: flex;
     padding: 1.28rem;
+    flex-wrap: wrap;
 }
 
 .qualifications{
@@ -90,6 +91,14 @@
 .qualifications .todo .icon{
     padding-right: 1.125rem;
 }
+.qualifications .todo:nth-child(1):after,
+.qualifications .todo:nth-child(2):after{
+    margin-top: 1rem;
+    background-color: rgba(29, 6, 5, 0.15);
+    content: "";
+    height: 1px;
+    width: 90%;
+}
 
 .qualifications .todo h2{
     color: #1D0605E5;
@@ -102,14 +111,6 @@
     opacity: 60%;
     line-height: 1.2rem;
     font-size: 1rem;
-}
-
-.qualification .todo .underline::after{
-    content:"";
-    height: 1px;
-    width: 18.3rem;
-    background-color: #492e1525;
-    
 }
 
 @media (min-width: 1024px) {
@@ -160,6 +161,11 @@
     #start .grupo button:hover{
         opacity: .9;
     }
+    .qualifications .todo{
+        flex-wrap: nowrap;
+        padding-right: 0;
+        width: 18.91rem;
+    }
     .qualifications .todo h2{
         color: rgba(29, 6, 5, 0.90);
         font-size: 1.25rem;
@@ -168,4 +174,19 @@
         line-height: 1.375rem;
         text-transform: uppercase;
     }
+    .qualifications .todo:nth-child(1) p{
+        width: 10.62rem;
+    }
+    .qualifications .todo:nth-child(1){
+        margin-right: 1rem;
+    }
+    .qualifications .todo:nth-child(1):after,
+    .qualifications .todo:nth-child(2):after{
+        padding-left: 5rem;
+        margin-top: 2rem;
+        background-color: rgba(29, 6, 5, 0.15);
+        content: "";
+        height: 1px;
+        rotate: 90deg; 
+}
 }
