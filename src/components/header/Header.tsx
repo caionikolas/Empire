@@ -45,35 +45,35 @@ export default function Header() {
                         
                     />
                 </nav>
-                    <div className="menu-nav">
-                        <a href="#start" className="active">Home</a>
-                        <a href="#menu">Promoção</a>
-                        <a href="#menu">Cardápio</a>
-                        <a href="#localization">Comentario</a>
-                        <a href="#localization">Contato</a>
-                    </div>
-                    <div className="menu-icon">
+                <div className="menu-nav">
+                    <a href="#start" className="active">Home</a>
+                    <a href="#menu">Promoção</a>
+                    <a href="#menu">Cardápio</a>
+                    <a href="#localization">Comentario</a>
+                    <a href="#localization">Contato</a>
+                </div>
+                <div className="menu-icon">
+                    <Image 
+                        src={Ifood}
+                        alt='icone do Ifood'
+                        className='ifood'
+                    />
+                    <Image 
+                        src={Instagram}
+                        alt='icone do Instagram'
+                    />
+                    <Image 
+                        src={Barra}
+                        alt='icone do Ifood'
+                    />
+                    <div className="wpp">
                         <Image 
-                            src={Ifood}
-                            alt='icone do Ifood'
-                            className='ifood'
-                        />
-                        <Image 
-                            src={Instagram}
+                            src={Wpp}
                             alt='icone do Instagram'
                         />
-                        <Image 
-                            src={Barra}
-                            alt='icone do Ifood'
-                        />
-                        <div className="wpp">
-                            <Image 
-                                src={Wpp}
-                                alt='icone do Instagram'
-                            />
-                            <p>Contato</p>
-                        </div>
+                        <p>Contato</p>
                     </div>
+                </div>
             </header>
         </>   
     )

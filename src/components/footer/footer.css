@@ -1,4 +1,18 @@
-#footer .logo{
-    padding-top: 16rem;
-    margin: 0 auto;
+@media (min-width: 1024px){
+    #footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 16rem 8rem 2rem 8rem;
+        margin: 0 auto;
+    }
+    
+    #footer .menu-icon{
+        background-color: black;
+        color: black;
+    }
 }
+
+
+
