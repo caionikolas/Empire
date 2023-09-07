@@ -1,9 +1,15 @@
 import Image from "next/image"
 import Logo from "../../assets/images/logo-color.svg"
 import "./footer.css"
-import { lilitaone } from "@/app/layout"
+import { Lilita_One  } from 'next/font/google'
 import Ifood from '../../assets/images/ifood-color.svg'
 import Instagram from '../../assets/images/instagram-color.svg'
+
+const lilitaOne = Lilita_One({ 
+    subsets: ['latin'],
+    weight: '400',
+    variable: '--font-lilitaOne'
+   })
 
 export default function Footer() {
     return (
@@ -13,7 +19,7 @@ export default function Footer() {
                     <a href="#start">
                         <div className="logo">
                             <div className="img" >
-                                <div className={lilitaone.className}>
+                                <div className={lilitaOne.className}>
                                     <Image 
                                         src={Logo}
                                         alt='logo Empire Burger'

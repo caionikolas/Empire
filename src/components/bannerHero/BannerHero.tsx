@@ -9,7 +9,13 @@ import BannerWeb from '../../assets/images/banner-hero-web.png'
 import './layout.css'
 import useWindowDimension from 'use-window-dimensions';
 
-import { lilitaone } from '@/app/layout'
+import { Lilita_One  } from 'next/font/google'
+
+const lilitaOne = Lilita_One({ 
+    subsets: ['latin'],
+    weight: '400',
+    variable: '--font-lilitaOne'
+   })
 
 export default function BannerHero() {
     const { width }  = useWindowDimension();
@@ -22,7 +28,7 @@ export default function BannerHero() {
                 </div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>
-                    <h1 className={lilitaone.className}>KING <span>BURGER</span></h1>
+                    <h1 className={lilitaOne.className}>KING <span>BURGER</span></h1>
                     <p>Para quem tem um <span>Apetite de um REI!</span></p>
                     <button>Comprar Agora</button>
                 </div>
@@ -36,7 +42,7 @@ export default function BannerHero() {
                             />
                         </div>
                         <div>
-                            <h2  className={lilitaone.className}>ARTESANAL</h2>
+                            <h2  className={lilitaOne.className}>ARTESANAL</h2>
                             <p>Nossas receitas são <br/> feitas com todo cuidado</p>
                             <div className="underline"></div>
                         </div>
@@ -49,7 +55,7 @@ export default function BannerHero() {
                             />
                         </div>
                         <div>
-                            <h2  className={lilitaone.className}>ATENDIMENTO</h2>
+                            <h2  className={lilitaOne.className}>ATENDIMENTO</h2>
                             <p>Totalmente <br/> personalizado</p>
                             <div className="underline"></div>
                         </div>
@@ -62,7 +68,7 @@ export default function BannerHero() {
                             />
                         </div>
                         <div>
-                            <h2  className={lilitaone.className}>DELIVERY SPEED</h2>
+                            <h2  className={lilitaOne.className}>DELIVERY SPEED</h2>
                             <p>Entregamos menos de <br/> 30 minutos</p>
                         </div>
                     </div>
