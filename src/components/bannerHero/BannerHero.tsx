@@ -1,11 +1,10 @@
-'use client'
-
 import Image from 'next/image'
 import Banner from '../../assets/images/Banner mobile 1.png'
 import Burger from '../../assets/images/burguer.svg'
 import Phone from '../../assets/images/fone.svg'
 import Delivery from '../../assets/images/delivery.svg'
 import BannerWeb from '../../assets/images/banner-hero-web.png'
+import useWindowDimension from 'use-window-dimensions';
 import './layout.css'
 
 
@@ -17,43 +16,15 @@ const lilitaOne = Lilita_One({
     variable: '--font-lilitaOne'
    })
 
-   import { useState, useEffect } from 'react';
-
-   const getWindowDimensions = () => {
-     const { innerWidth: width, innerHeight: height } = window;
-   
-     return { width, height };
-   };
-   
-   function useWindowDimensions() {
-     const [windowDimesions, setWindowDimensions] = useState(
-       getWindowDimensions()
-     );
-   
-     useEffect(() => {
-       const handleSize = () => {
-         setWindowDimensions(getWindowDimensions);
-       };
-   
-       if (typeof window !== "undefined") {
-         window.addEventListener('resize', handleSize);
-       }
-       
-       return () => window.removeEventListener('resize', handleSize);
-     }, []);
-   
-     return windowDimesions;
-   }
-
 export default function BannerHero() {
-    const { width }  = useWindowDimensions();
+    const { width }  = useWindowDimension();
     
 
     return (
         <>
             <section id="start" >
                 <div className='img'>
-                    {width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger' width={1920} height={545}/>}
+                    {width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'  priority={true}/> : <Image src={BannerWeb}alt='Banner Empire Burger' width={1920} height={545} priority={true}/>}
                 </div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>

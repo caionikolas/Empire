@@ -1,5 +1,3 @@
-'use client';
-
 import "./menu.css"
 import Image from "next/image"
 import Burger from "../../assets/images/burguer.png"
@@ -16,8 +14,7 @@ const lilitaOne = Lilita_One({
    })
 
 export default function Offers(){
-   // const { width }  = useWindowDimension();
-   //{width < 1024 ? <Image src={Burger} alt='Banner Empire Burger'/> : <Image src={BurgerWeb}alt='Banner Empire Burger'/>}
+   const { width }  = useWindowDimension();
 
     const Lanches = {
         1: {
@@ -42,7 +39,7 @@ export default function Offers(){
                 <div className="lanches ">
                     <div className="lanche">
                         <div className="img-lanche">
-                            <Image src={Burger} alt='Banner Empire Burger'/>
+                            {width < 1024 ? <Image src={Burger} alt='Banner Empire Burger'/> : <Image src={BurgerWeb}alt='Banner Empire Burger'/>}
                         </div>
                         <div className="left-title">
                             <h3 className={lilitaOne.className}>{Lanches[1].nome}</h3>
