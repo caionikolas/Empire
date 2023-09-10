@@ -39,7 +39,6 @@ export default function Offers(){
                 <div className="lanches ">
                     <div className="lanche">
                         <div className="img-lanche">
-                            {width < 1024 ? <Image src={Burger} alt='Banner Empire Burger'/> : <Image src={BurgerWeb}alt='Banner Empire Burger'/>}
                         </div>
                         <div className="left-title">
                             <h3 className={lilitaOne.className}>{Lanches[1].nome}</h3>

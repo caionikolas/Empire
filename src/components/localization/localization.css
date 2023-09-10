@@ -19,6 +19,9 @@
     width: 4.56rem;
     height: 4.56rem;
     background: #1D060533;
+    background-image: url("./../../assets/images/timer.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     padding: .8rem 1.06rem;
     border-radius: 50%;
     margin-right: .87rem;
@@ -126,6 +129,7 @@
         line-height: 1.4rem;
     }
     #localization .time .timer{
+        background-image: url("./../../assets/images/clock-web.svg");
         width: 5.9rem;
         height: 5.9rem;
         display: flex;

@@ -4,10 +4,10 @@
     left: 0;
     right: 0;
     bottom: 0;
+    background-image: url("../../assets/images/Bannermobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
-    width: max-content;
-    height: max-content;
-    background-size: cover;
     z-index: -1;
 }
 
@@ -117,8 +117,9 @@
     #start{
         height: max-content;
     }
-    #start .ig{
-        object-fit: cover;
+    #start .img{
+        background-image: url("../../assets/images/banner-heroweb.png");
+        background-position: top;
     }
     .qualifications{
         top: 30.89rem;

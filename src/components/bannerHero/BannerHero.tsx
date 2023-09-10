@@ -1,31 +1,23 @@
 import Image from 'next/image'
-import Banner from '../../assets/images/Banner mobile 1.png'
 import Burger from '../../assets/images/burguer.svg'
 import Phone from '../../assets/images/fone.svg'
 import Delivery from '../../assets/images/delivery.svg'
-import BannerWeb from '../../assets/images/banner-hero-web.png'
-import useWindowDimension from 'use-window-dimensions';
 import './layout.css'
 
 
 import { Lilita_One  } from 'next/font/google'
 
-const lilitaOne = Lilita_One({ 
+const lilitaOne = Lilita_One({
     subsets: ['latin'],
     weight: '400',
     variable: '--font-lilitaOne'
    })
 
 export default function BannerHero() {
-    const { width }  = useWindowDimension();
-    
-
     return (
         <>
             <section id="start" >
-                <div className='img'>
-                    {width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'  priority={true}/> : <Image src={BannerWeb}alt='Banner Empire Burger' width={1920} height={545} priority={true}/>}
-                </div>
+                <div className='img'></div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>
                     <h1 className={lilitaOne.className}>KING <span>BURGER</span></h1>

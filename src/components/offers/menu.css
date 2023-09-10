@@ -40,6 +40,12 @@
     left: 1.27rem;
 }
 
+#menu .lanche .img-lanche{
+    background-image: url("./../../assets/images/burguer.png");
+    width: 380px;
+    height: 213px;
+}
+
 #menu .lanche .img-lanche2{
     padding-bottom: .5rem;
 }
@@ -138,6 +144,7 @@
         
     }
     #menu .lanches .lanche .img-lanche{
+        background-image: url("./../../assets/images/oferta-1.png");
         width: 48.12rem;
         height: 26.87rem;
     }
