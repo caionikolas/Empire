@@ -1,11 +1,8 @@
 import "./menu.css"
 import Image from "next/image"
-import Burger from "../../assets/images/burguer.png"
 import Fries from "../../assets/images/french-fries.png"
 import iceCream from "../../assets/images/ice-cream.png"
 import { Lilita_One  } from 'next/font/google'
-import useWindowDimension from 'use-window-dimensions';
-import BurgerWeb from "../../assets/images/oferta-1.png"
 
 const lilitaOne = Lilita_One({ 
     subsets: ['latin'],
@@ -14,7 +11,6 @@ const lilitaOne = Lilita_One({
    })
 
 export default function Offers(){
-   const { width }  = useWindowDimension();
 
     const Lanches = {
         1: {
@@ -38,8 +34,7 @@ export default function Offers(){
                 <p>Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando o nosso cardapio.</p>
                 <div className="lanches ">
                     <div className="lanche">
-                        <div className="img-lanche">
-                        </div>
+                        <div className="img-lanche"></div>
                         <div className="left-title">
                             <h3 className={lilitaOne.className}>{Lanches[1].nome}</h3>
                             <p>{Lanches[1].peso}</p>

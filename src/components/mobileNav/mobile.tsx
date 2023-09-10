@@ -3,7 +3,6 @@ import { useState } from 'react'
 
 import { IoMdClose } from 'react-icons/io'
 import Menu from '../../assets/images/menu.svg'
-import { CgMenuRight } from 'react-icons/cg'
 
 import Link from "next/link"
 

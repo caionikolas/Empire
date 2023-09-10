@@ -4,7 +4,6 @@ import Phone from '../../assets/images/fone.svg'
 import Delivery from '../../assets/images/delivery.svg'
 import './layout.css'
 
-
 import { Lilita_One  } from 'next/font/google'
 
 const lilitaOne = Lilita_One({
