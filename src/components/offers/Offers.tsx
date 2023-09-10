@@ -6,7 +6,7 @@ import Burger from "../../assets/images/burguer.png"
 import Fries from "../../assets/images/french-fries.png"
 import iceCream from "../../assets/images/ice-cream.png"
 import { Lilita_One  } from 'next/font/google'
-//import useWindowDimension from 'use-window-dimensions';
+import useWindowDimension from 'use-window-dimensions';
 import BurgerWeb from "../../assets/images/oferta-1.png"
 
 const lilitaOne = Lilita_One({ 
