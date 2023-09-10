@@ -5,7 +5,7 @@ import Image from "next/image"
 import clock from "../../assets/images/timer.svg"
 import clockWeb from "../../assets/images/clock-web.svg"
 import { Lilita_One  } from 'next/font/google'
-import useWindowDimension from 'use-window-dimensions';
+//import useWindowDimension from 'use-window-dimensions';
 
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
@@ -16,7 +16,8 @@ const lilitaOne = Lilita_One({
    })
 
 export default function Localization(){
-    const { width }  = useWindowDimension();
+    //const { width }  = useWindowDimension();
+    //{width < 1024 ? <Image src={clock} alt='Banner Empire Burger'/> : <Image src={clockWeb}alt='Banner Empire Burger'/>}
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
@@ -29,7 +30,7 @@ export default function Localization(){
                     <div className="timer-hash">
                         <div className="time">
                             <div className="timer">
-                                {width < 1024 ? <Image src={clock} alt='Banner Empire Burger'/> : <Image src={clockWeb}alt='Banner Empire Burger'/>}
+                                <Image src={clock} alt='Banner Empire Burger'/>
                             </div>
                             <div className="time-operation">
                                 <h3 className={lilitaOne.className}>Horário de funcionamento</h3>

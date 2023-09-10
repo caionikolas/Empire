@@ -7,7 +7,7 @@ import Phone from '../../assets/images/fone.svg'
 import Delivery from '../../assets/images/delivery.svg'
 import BannerWeb from '../../assets/images/banner-hero-web.png'
 import './layout.css'
-import useWindowDimension from 'use-window-dimensions';
+//import useWindowDimension from 'use-window-dimensions';
 
 import { Lilita_One  } from 'next/font/google'
 
@@ -18,13 +18,14 @@ const lilitaOne = Lilita_One({
    })
 
 export default function BannerHero() {
-    const { width }  = useWindowDimension();
-    
+    //const { width }  = useWindowDimension();
+    //{width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger' width={1920} height={545}/>}
+
     return (
         <>
             <section id="start" >
                 <div className='img'>
-                    {width < 1024 ? <Image src={Banner} alt='Banner Empire Burger'/> : <Image src={BannerWeb}alt='Banner Empire Burger' width={1920} height={545}/>}
+                    <Image src={Banner} alt='Banner Empire Burger'/>
                 </div>
                 <div className="grupo">
                     <h3>Uma nova experiência!</h3>
