@@ -15,8 +15,8 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 ## 🚀 Tecnologias
 
 - [NextJS](https://nextjs.org)
+- [React](http://https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org)
-- [Item 3](http://localhost:3000/)
 
 ## 📝 ObJetivos
 ### Nível Fácil
