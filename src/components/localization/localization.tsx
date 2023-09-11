@@ -2,6 +2,9 @@ import "./localization.css"
 import { Lilita_One  } from 'next/font/google'
 
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import Menu from "../menu/Menu";
+import Service from "../service/service";
+import Delivery from "../delivery/delivery";
 
 const lilitaOne = Lilita_One({ 
     subsets: ['latin'],
@@ -34,6 +37,9 @@ export default function Localization(){
                         </div>
                     </div>
                 </div>
+                <Menu/>
+                <Service/>
+                <Delivery/>
                 <h3 className={lilitaOne.className}>Onde fica nosso castelo</h3>
                 <p className="ploc">Estaremos de portas abertas para a nossa realeza.</p>
                 <div className="map">

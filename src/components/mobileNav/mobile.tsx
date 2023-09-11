@@ -46,7 +46,7 @@ export default function MobileNav() {
                 <ul className="mobile-list">
                     <li onClick={() => setOpenMenu(false)}><Link href={'#start'} className="link">Home</Link></li>
 
-                    <li onClick={() => setOpenMenu(false)}><Link href={'#menu'} className="link">Promoção</Link></li>
+                    <li onClick={() => setOpenMenu(false)}><Link href={'#offers'} className="link">Promoção</Link></li>
 
                     <li onClick={() => setOpenMenu(false)}><Link href={'#menu'} className="link">Cardápio</Link></li>
 
@@ -54,9 +54,9 @@ export default function MobileNav() {
                     
                     <li onClick={() => setOpenMenu(false)}><Link href={'#menu'} className="link">Cardápio</Link></li>
 
-                    <li onClick={() => setOpenMenu(false)}><Link href={'#localization'} className="link">Comentario</Link></li>
+                    <li onClick={() => setOpenMenu(false)}><Link href={'#service'} className="link">Comentario</Link></li>
 
-                    <li onClick={() => setOpenMenu(false)}><Link href={'#localization'} className="link">Contato</Link></li>
+                    <li onClick={() => setOpenMenu(false)}><Link href={'#footer'} className="link">Contato</Link></li>
                 </ul>
             </motion.div>
         </nav>

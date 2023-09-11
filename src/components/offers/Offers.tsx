@@ -1,4 +1,4 @@
-import "./menu.css"
+import "./offers.css"
 import Image from "next/image"
 import Fries from "../../assets/images/french-fries.png"
 import iceCream from "../../assets/images/ice-cream.png"
@@ -29,7 +29,7 @@ export default function Offers(){
 
     return (
         <>
-            <div id="menu">
+            <div id="offers">
                 <h2 className={lilitaOne.className}>Ofertas especiais</h2>
                 <p>Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando o nosso cardapio.</p>
                 <div className="lanches ">

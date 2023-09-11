@@ -6,7 +6,7 @@
     bottom: 0;
     background-image: url("../../assets/images/Bannermobile.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     margin: 0 auto;
     z-index: -1;
 }
@@ -59,11 +59,12 @@
     line-height: 1.3rem;
     border-style: none;
     cursor: pointer;
-    transition: .2s;
+    transition: .1s;
 }
 
 #start .grupo button:hover{
-    opacity: .9;
+    background:#f1271c;
+    scale: 1.005;
 }
 
 .qualifications .todo{

@@ -1,0 +1,70 @@
+#delivery{
+    width: 26.73rem;
+    padding: 4rem 1.5rem;
+}
+
+#delivery .card-phone{
+    background-image: url("./../../assets/images/card-phone.png");
+    background-size: cover;
+    height: 22.40rem;
+}
+
+#delivery h2{
+    padding-top: 2.47rem;
+    color: rgba(29, 6, 5, 0.90);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+    text-align: start;
+}
+
+#delivery .card{
+    width: 23.75rem;
+    height: 5.625rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #FFF;
+    display: flex;
+    margin: .5rem 0;
+}
+
+#delivery .card.active{
+    box-shadow: 0px 4px 40px 0px rgba(178, 155, 132, 0.50);
+}
+
+#delivery .card .icon{
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: #FAE2CB;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin: .94rem 1.12rem .94rem 1.43rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#delivery .card .text-card{
+    text-align: start;
+    margin: .78rem 1.68rem .72rem 1.5rem;
+}
+
+#delivery .card .text-card h5{
+    color: rgba(29, 6, 5, 0.90);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem;
+    text-transform: uppercase;
+}
+
+#delivery .card .text-card p{
+    color: rgba(29, 6, 5, 0.69);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.225rem;
+}

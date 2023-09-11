@@ -1,10 +1,10 @@
-#menu{
+#offers{
     padding: 17.48rem 1.57rem 0 1.57rem;
     width: 26.75rem;
     margin: 0 auto;
 }
 
-#menu h2{
+#offers h2{
     color: rgba(29, 6, 5, 0.90);
     font-size: 1.5625rem;
     font-style: normal;
@@ -12,11 +12,11 @@
     line-height: 1.71875rem;
 }
 
-#menu h2, #menu h3{
+#offers h2, #offers h3{
     text-transform: uppercase;
 }
 
-#menu p{
+#offers p{
     color: rgba(29, 6, 5, 0.69);
     font-size: 1rem;
     font-style: normal;
@@ -25,38 +25,38 @@
     padding-bottom: 1rem;
 }
 
-#menu .lanche{
+#offers .lanche{
     position: relative;
     padding-top: .5rem;
 }
 
-#menu :nth-child(3){
+#offers :nth-child(3){
     color: white;
 }
 
-#menu .lanche .left-title{
+#offers .lanche .left-title{
     position: absolute;
     top: 1.4rem;
     left: 1.27rem;
 }
 
-#menu .lanche .img-lanche{
+#offers .lanche .img-lanche{
     background-image: url("./../../assets/images/burguer.png");
     width: 380px;
     height: 213px;
 }
 
-#menu .lanche .img-lanche2{
+#offers .lanche .img-lanche2{
     padding-bottom: .5rem;
 }
 
-#menu .lanche .img-lanche3 .left-title{
+#offers .lanche .img-lanche3 .left-title{
     position: absolute;
     top: 15rem;
     left: 1.27rem;
 }
 
-#menu .lanche  .left-title h3{
+#offers .lanche  .left-title h3{
     color: rgba(255, 255, 255, 0.90);
     font-size: 1.2805rem;
     font-style: normal;
@@ -64,7 +64,7 @@
     line-height: 1.4085rem;
 }
 
-#menu .lanche .left-title p{
+#offers .lanche .left-title p{
     color: rgba(255, 255, 255, 0.69);
     font-size: 1.15244rem;
     font-style: normal;
@@ -72,20 +72,20 @@
     line-height: 1.61338rem;
 }
 
-#menu .lanche .img-lanche2 .left-title h3,
-#menu .lanche .img-lanche2 .left-title p,
-#menu .lanche .img-lanche3 .left-title h3,
-#menu .lanche .img-lanche3 .left-title p{
+#offers .lanche .img-lanche2 .left-title h3,
+#offers .lanche .img-lanche2 .left-title p,
+#offers .lanche .img-lanche3 .left-title h3,
+#offers .lanche .img-lanche3 .left-title p{
     color: rgba(29, 6, 5, 0.90);
 }
 
-#menu .lanche .right-title{
+#offers .lanche .right-title{
     position: absolute;
     bottom: 15px;
     right: 1.27rem;
 }
 
-#menu .lanche .right-title p{
+#offers .lanche .right-title p{
     color: rgba(255, 255, 255, 0.69);
     font-size: 0.682rem;
     font-style: normal;
@@ -93,7 +93,7 @@
     line-height: 0.74725rem;
 }
 
-#menu .lanche .right-title p strong{
+#offers .lanche .right-title p strong{
     color: rgba(255, 255, 255, 0.90);
     font-size: 1.24538rem;
     line-height: 0.81544rem;
@@ -101,59 +101,59 @@
 }
 
 @media (min-width: 1024px) {
-    #menu{
+    #offers{
         padding: 2rem 0 0 0;
         width: 71.3rem;
         margin: 0 auto;
     }
 
-    #menu h2{
+    #offers h2{
         font-size: 2rem;
         line-height: 2.2rem;
     }
     
-    #menu p{
+    #offers p{
         font-size: 1rem;
         line-height: 1.4rem;
     }
 
-    #menu .lanche  .left-title h3{
+    #offers .lanche  .left-title h3{
         font-size: 1.5625rem;
         line-height: 1.71875rem;
     }
     
-    #menu .lanche .left-title p{
+    #offers .lanche .left-title p{
         font-size: 1.125rem;
         line-height: 1.575rem;
     }
 
-    #menu .lanche .right-title p{
+    #offers .lanche .right-title p{
         font-size: 1.4375rem;
         line-height: 1.575rem;
         padding-right: 1rem;
     }
     
-    #menu .lanche .right-title p strong{
+    #offers .lanche .right-title p strong{
         font-size: 2.625rem;
         line-height: 1.71875rem;
     }
 
-    #menu .lanches{
+    #offers .lanches{
         display: grid;
         grid-template-columns: 69% 31%; 
         
     }
-    #menu .lanches .lanche .img-lanche{
+    #offers .lanches .lanche .img-lanche{
         background-image: url("./../../assets/images/oferta-1.png");
         width: 48.12rem;
         height: 26.87rem;
     }
 
-    #menu .lanche .img-lanche2{
+    #offers .lanche .img-lanche2{
         padding-bottom: 1rem;
     }
 
-    #menu .lanche{
+    #offers .lanche{
         padding: 0;
     }
     

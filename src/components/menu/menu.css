@@ -1,0 +1,96 @@
+#menu{
+    width: 26.73rem;
+}
+
+#menu .escolha{
+    background-image: url("./../../assets/images/banner-menu.png");
+    height: 14.92rem;
+    padding: 1.49rem 2.40rem;
+    text-align: start;
+}
+
+#menu .escolha h2{
+    color: #3B200B;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    text-transform: uppercase;
+    padding-bottom: .48rem;
+}
+
+#menu .escolha h2 span{
+    background-color: #F59A1B;
+    border-radius: 5px;
+}
+
+#menu .escolha p{
+    color: rgba(29, 6, 5, 0.69);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.225rem;
+    padding-bottom: .96rem;
+}
+
+#menu .escolha button{
+    border-style: none;
+    display: inline-flex;
+    padding: 0.65194rem 1.30381rem;
+    align-items: center;
+    gap: 0.81488rem;
+    border-radius: 0.32594rem;
+    background: #F43127;
+    
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4rem;
+    transition: .1s;
+    cursor: pointer;
+}
+
+#menu .escolha button:hover{
+    background:#f1271c;
+    scale: 1.005;
+}
+
+#menu .cardapio{
+    background:#3B200B;
+    height: 29.10rem;
+    padding: 3.41rem 1.5rem 1.97rem 1.52rem;
+    text-align: start;
+}
+
+#menu .cardapio h2{
+    color: #F59A1B;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    text-transform: uppercase;
+    padding-bottom: 1.49rem;
+}
+
+#menu .cardapio h4{
+    color: #FAE4D0;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+    text-transform: uppercase;
+    padding-bottom: .25rem;
+}
+
+#menu .cardapio p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.225rem;
+    padding-bottom: 1rem;
+    width: 22.28rem;
+}

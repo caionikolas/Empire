@@ -1,0 +1,61 @@
+#service{
+    width: 26.73rem;
+    padding: 3.04rem 1.62rem 4rem 1.5rem;
+    text-align: start;
+}
+
+#service .girl{
+    background-image: url("./../../assets/images/card-woman-eating.png");
+    background-size: cover;
+    height: 18.88rem;
+}
+
+#service h2{
+    color: rgba(29, 6, 5, 0.90);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: .52rem;
+}
+
+#service h2 span{
+    background-color: #F59A1B;
+    border-radius: 5px;
+}
+
+#service p{
+    color: rgba(29, 6, 5, 0.69);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem;
+    padding-bottom: .52rem;
+}
+
+#service button{
+    border-style: none;
+    display: inline-flex;
+    padding: 0.65194rem 1.30381rem;
+    align-items: center;
+    gap: 0.81488rem;
+    border-radius: 0.32594rem;
+    background:#F43127;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4rem;
+    transition: .1s;
+    cursor: pointer;
+}
+
+
+#service button:hover{
+    background:#f1271c;
+    scale: 1.005;
+}
