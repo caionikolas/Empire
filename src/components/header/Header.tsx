@@ -43,10 +43,10 @@ export default function Header() {
                 </nav>
                 <div className="menu-nav">
                     <a href="#start" className="active">Home</a>
-                    <a href="#menu">Promoção</a>
+                    <a href="#offers">Promoção</a>
                     <a href="#menu">Cardápio</a>
-                    <a href="#localization">Comentario</a>
-                    <a href="#localization">Contato</a>
+                    <a href="#service">Comentario</a>
+                    <a href="#footer">Contato</a>
                 </div>
                 <div className="menu-icon">
                     <Image 

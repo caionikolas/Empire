@@ -31,9 +31,9 @@ export default function Footer() {
                     </a>
                     <div className="menu-nav-web">
                         <a href="#start" className="active">Home</a>
-                        <a href="#menu">Localização</a>
+                        <a href="#footer">Localização</a>
                         <a href="#menu">Cardápio</a>
-                        <a href="#localization">Sobre</a>
+                        <a href="#service">Sobre</a>
                     </div>
                     <div className="menu-icon">
                         <Image 
