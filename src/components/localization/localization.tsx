@@ -20,7 +20,7 @@ const hora = date.getHours()
 const diaSemana = semana[date.getDay()]
 var d = new Date();
 
-export default async function Localization(){
+export default function Localization(){
   
 
     const { isLoaded } = useJsApiLoader({
