@@ -59,3 +59,43 @@
     background:#f1271c;
     scale: 1.005;
 }
+
+@media (min-width: 1024px) {
+    #service{
+        padding-top: 39.5rem;
+        width: 73.125rem;
+        display: grid;
+        grid-template-columns: 35rem 35rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #service .girl{
+        background-image: url("./../../assets/images/card-woman-eating.png");
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 28.48138rem;
+        margin-right: -1rem;
+    }
+
+    #service .atendimento{
+        padding: 11rem 4rem 3.4rem 2rem;
+    }
+
+    #service .atendimento h2{
+        padding-bottom: .61rem;
+        font-size: 2.60769rem;
+        line-height: 2.86844rem;
+    }
+
+    #service .atendimento p{
+        padding-bottom: 1.28rem;
+        font-size: 1.30381rem;
+        line-height: 1.82538rem;
+    }
+
+    #service button{
+        font-size: 1.46681rem;
+        line-height: 2.05356rem;
+    }
+}

@@ -5,6 +5,8 @@ import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 import Menu from "../menu/Menu";
 import Service from "../service/service";
 import Delivery from "../delivery/delivery";
+import Comments from "../comments/comments";
+
 
 const lilitaOne = Lilita_One({ 
     subsets: ['latin'],
@@ -12,7 +14,14 @@ const lilitaOne = Lilita_One({
     variable: '--font-lilitaOne'
    })
 
-export default function Localization(){
+let semana = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"];
+const date = new Date();
+const hora = date.getHours()
+const diaSemana = semana[date.getDay()]
+var d = new Date();
+
+export default async function Localization(){
+  
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
@@ -24,9 +33,14 @@ export default function Localization(){
                 <div className="th">
                     <div className="timer-hash">
                         <div className="time">
+                            {(hora > 17 && hora <23) && (diaSemana != "Domingo" && diaSemana != "Sábado") || ((hora > 18.30 && hora <23) && (diaSemana == "Domingo" || diaSemana == "Sábado"))
+                             ? <div className="test"></div> : null}
                             <div className="timer"></div>
                             <div className="time-operation">
-                                <h3 className={lilitaOne.className}>Horário de funcionamento</h3>
+                                <h3 className={lilitaOne.className}>
+                                    {(hora > 17 && hora <23) && (diaSemana != "Domingo" && diaSemana != "Sábado") || ((hora > 18.30 && hora <23) && (diaSemana == "Domingo" || diaSemana == "Sábado"))
+                                    ? "Estamos Abertos!" : "Horário de funcionamento"}  
+                                </h3>
                                 <p>Segunda a sexta: 17h00 - 23h00</p>
                                 <p>Sabado a Domíngo: 18h30 - 23h00</p>
                             </div>
@@ -39,6 +53,7 @@ export default function Localization(){
                 </div>
                 <Menu/>
                 <Service/>
+                <Comments/>
                 <Delivery/>
                 <h3 className={lilitaOne.className}>Onde fica nosso castelo</h3>
                 <p className="ploc">Estaremos de portas abertas para a nossa realeza.</p>

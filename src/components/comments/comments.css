@@ -1,0 +1,81 @@
+#comments{
+    width: 26.73rem;
+    padding: 4rem 1.5rem;
+}
+
+#comments h2{
+    color: rgba(29, 6, 5, 0.90);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    text-transform: uppercase;
+
+    padding-bottom: .5rem;
+}
+
+#comments p{
+    color: rgba(29, 6, 5, 0.69);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem;
+
+    padding-bottom: 1rem;
+}
+
+#comments .comment{
+    width: 20.42025rem;
+    height: 13.27144rem;
+    flex-shrink: 0;
+
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(60, 35, 13, 0.10);
+
+    margin: 0 auto;
+    padding: 1.6rem 1.48rem .89rem 1.05rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comments .comment p{
+    color: rgba(29, 6, 5, 0.69);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem;
+
+    text-align: start;
+    padding-bottom: 1.4rem;
+}
+
+#comments .comment .user{
+    display: flex;
+    align-items: center;
+}
+
+#comments .comment .user .user-name{
+    padding-left: .5rem;
+    text-align: start; 
+}
+
+#comments .comment .user .user-name h4{
+    color: rgba(29, 6, 5, 0.90);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem;
+    text-transform: uppercase;
+}
+
+#comments .comment .user .user-name h5{
+    color: rgba(29, 6, 5, 0.69);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.05rem;
+}
+
+

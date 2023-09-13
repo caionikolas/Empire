@@ -31,7 +31,7 @@
     margin: .5rem 0;
 }
 
-#delivery .card.active{
+#delivery .card:hover{
     box-shadow: 0px 4px 40px 0px rgba(178, 155, 132, 0.50);
 }
 
@@ -68,3 +68,160 @@
     font-weight: 400;
     line-height: 1.225rem;
 }
+
+#delivery .pedido{
+    height: 17.55rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #F43127;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#delivery .pedido .phone-icon{
+    width: 5.92675rem;
+    height: 5.92675rem;
+    flex-shrink: 0;
+    padding: .7rem 0;
+    margin: 0 auto;
+}
+
+#delivery .pedido h3{
+    color: rgba(29, 6, 5, 0.69);
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+#delivery .pedido p{
+    color: rgba(255, 255, 255, 0.90);
+    width: 18.72256rem;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.225rem;
+    padding-top: .25rem;
+}
+
+#delivery .pedido button{
+    display: flex;
+    width: 19.875rem;
+    height: 2.43rem;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: #FAE4D0;
+    cursor: pointer;
+    border-style: none;
+    margin-top: 1rem;
+
+    color: #F43127;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+    transition: .1s;
+}
+
+#delivery .pedido button:hover{
+    scale: 1.005;
+}
+
+@media (min-width: 1024px){
+    #delivery{
+        width: 73.125rem;
+        padding: 8.02rem 0 6.27rem 0;
+    }
+
+    #delivery .entregas{
+        display: grid;
+        grid-template-columns: 35rem 35rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #delivery .card-phone{
+        background-image: url("./../../assets/images/card-phone.png");
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 33.47781rem;
+        margin-right: -1rem;
+    }
+
+    #delivery .entregas .entrega{
+        padding: 3.74rem 0 2.5rem 2rem;
+    }
+
+    #delivery .entregas .entrega .card{
+        width: 35.58988rem;
+        height: 5.625rem;
+        flex-shrink: 0;
+        border-radius: 0.625rem;
+        background: #FFF;
+        display: flex;
+        margin: .5rem 0;
+    }
+
+    #delivery .pedido{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 73.03138rem;
+        height: 7.69rem;
+        padding: .88rem 2.24rem .88rem 1.39rem;
+    }
+
+    #delivery .pedido .phone-pedido{
+        display: flex;
+    }
+
+    #delivery .pedido .phone-pedido .phone-icon{
+        width: 5.92675rem;
+        height: 5.92675rem;
+        flex-shrink: 0;
+        margin-bottom: 1.5rem;
+        margin-right: .97rem;
+    }
+
+    #delivery .pedido .phone-pedido .faca-pedido{
+        padding-left: 1rem;
+    }
+
+    #delivery .pedido .phone-pedido .faca-pedido h3{
+        text-align: start;
+        line-height: 1.575rem;
+        font-size: 1.5625rem;
+        line-height: 1.71875rem;
+    }
+
+    #delivery .pedido .phone-pedido .faca-pedido p{
+        width: 29.14219rem;
+        text-align: start;
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    #delivery .pedido button{
+        width: 12.25rem;
+        height: 2.625rem;
+        display: inline-flex;
+        transition: .1s;
+        font-size: 1rem;
+        line-height: 1.575rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+

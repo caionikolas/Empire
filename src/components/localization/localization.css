@@ -15,6 +15,15 @@
     margin: 0 1.5rem;
 }
 
+#localization .time:has(.test){
+    background-color: #00FF7F;
+    
+}
+
+#localization .time:has(.test) .time-operation p{
+    color: rgba(29, 6, 5, 0.69);
+}
+
 #localization .time .timer{
     width: 4.56rem;
     height: 4.56rem;
@@ -31,6 +40,8 @@
     border-left: 2px solid #1D060533;
     padding-left: .87rem;
 }
+
+
 
 #localization .time .time-operation h3{
     color: rgba(29, 6, 5, 0.69);

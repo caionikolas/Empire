@@ -11,10 +11,12 @@ const lilitaOne = Lilita_One({
 export default function Service(){
     return (
         <div id="service">
-            <div className="girl"></div>
-            <h2 className={lilitaOne.className}>Atendimento <br /><span>personalizado</span></h2>
-            <p>Todos os nossos clientes são tratados como rei e rainha, com a nossa colunaria artesanal.</p>
-            <button>Cardápio Imperial</button>
+            <div><div className="girl"></div></div>
+            <div className="atendimento">
+                <h2 className={lilitaOne.className}>Atendimento <br /><span>personalizado</span></h2>
+                <p>Todos os nossos clientes são tratados como rei e rainha, com a nossa colunaria artesanal.</p>
+                <button>Cardápio Imperial</button>
+            </div>
         </div>
     )
 }

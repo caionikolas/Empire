@@ -30,7 +30,7 @@
 }
 
 .grupo{
-    padding: 6.31rem 5.13rem 36.68rem 1.5rem;
+    padding: 6.31rem 5.13rem 36.68rem 3rem;
     width: max-content;
     margin: 0 auto;
 }
@@ -56,10 +56,11 @@
     padding: 0.6rem 1.2rem;
     color: white;
     font-weight: 700;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
     border-style: none;
     cursor: pointer;
     transition: .1s;
+    font-size: 1rem;
 }
 
 #start .grupo button:hover{
