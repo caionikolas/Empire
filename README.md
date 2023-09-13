@@ -33,13 +33,13 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 ### Nível Médio
 
-- [ ] Todos os requisitos do nivel fácil.
+- [x] Todos os requisitos do nivel fácil.
 
-- [ ] Criar as seguintes seções: Cardápio, Atendimento, Nossas entregas.
+- [x] Criar as seguintes seções: Cardápio, Atendimento, Nossas entregas.
 
-- [ ] Na seção Cardápio os preços devem ser formatados com o método Intl.NumberFormat.
+- [x] Na seção Cardápio os preços devem ser formatados com o método Intl.NumberFormat.
 
-- [ ] O card Horário de funcionamento deverá ter os estados aberto e fechado, o estado será alterado conforme o horário do navegador do usuário.
+- [x] O card Horário de funcionamento deverá ter os estados aberto e fechado, o estado será alterado conforme o horário do navegador do usuário.
 
 ### Nível Difícil
 
