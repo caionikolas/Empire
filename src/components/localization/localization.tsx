@@ -21,7 +21,6 @@ const diaSemana = semana[date.getDay()]
 var d = new Date();
 
 export default function Localization(){
-  
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
