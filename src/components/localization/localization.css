@@ -5,81 +5,6 @@
     margin: 0 auto;
 }
 
-#localization .time{
-    display:flex;
-    width: 23.74rem;
-    height: 6.91rem;
-    background: rgba(244, 49, 39, 1);
-    padding: 1.17rem .81rem;
-    border-radius: 10px;
-    margin: 0 1.5rem;
-}
-
-#localization .time:has(.test){
-    background-color: #00FF7F;
-    
-}
-
-#localization .time:has(.test) .time-operation p{
-    color: rgba(29, 6, 5, 0.69);
-}
-
-#localization .time .timer{
-    width: 4.56rem;
-    height: 4.56rem;
-    background: #1D060533;
-    background-image: url("./../../assets/images/timer.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: .8rem 1.06rem;
-    border-radius: 50%;
-    margin-right: .87rem;
-}
-
-#localization .time .time-operation{
-    border-left: 2px solid #1D060533;
-    padding-left: .87rem;
-}
-
-#localization .time .time-operation h3{
-    color: rgba(29, 6, 5, 0.69);
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.575rem;
-    text-transform: uppercase;
-}
-
-#localization .time .time-operation p{
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.225rem;
-}
-
-
-#localization .hashtag{
-    padding: 4rem 1.5rem;
-    height: max-content;
-}
-
-
-#localization .hashtag p{
-    padding-left: .5rem;
-    font-size: 1.125rem;
-    color: rgba(29, 6, 5, 0.69);
-    padding-bottom: .25rem;
-}
-
-
-#localization .hashtag h2{
-    font-size: 2.56rem;
-    line-height: 1.75rem;
-    padding-left: 2rem;
-    color: rgba(244, 49, 39, 1);
-    text-transform: uppercase;
-}
 
 #localization h3{
     color: rgba(29, 6, 5, 0.90);
@@ -104,47 +29,6 @@
 }
 
 @media (min-width: 1024px){
-    #localization{
-        width: 100%;
-        margin: 0 auto;
-        max-width: 1175px;
-    }
-    #localization .th{
-        width: 60%;
-    }
-    #localization .th .timer-hash{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        width: 65.68rem;
-        max-width: 1175px;
-        align-items: center;
-        margin-left: -.5rem;
-        padding-bottom: 5.27rem;
-    }
-    #localization .time{
-        width: 35.625rem;
-        height: 8.18344rem;
-        flex-shrink: 0;
-    }
-
-    #localization .time .time-operation h3{
-        padding-bottom: .5rem;
-        font-size: 1.5625rem;
-        line-height: 1.71875rem;
-    }
-
-    #localization .time .time-operation p{
-        font-size: 1rem;
-        line-height: 1.4rem;
-    }
-    #localization .time .timer{
-        background-image: url("./../../assets/images/clock-web.svg");
-        width: 5.9rem;
-        height: 5.9rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     #localization h3{
         font-size: 2rem;
         line-height: 2.2rem;

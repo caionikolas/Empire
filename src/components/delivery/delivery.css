@@ -1,6 +1,7 @@
 #delivery{
     width: 26.73rem;
     padding: 4rem 1.5rem;
+    margin: 0 auto;
 }
 
 #delivery .card-phone{
@@ -29,6 +30,7 @@
     background: #FFF;
     display: flex;
     margin: .5rem 0;
+    cursor: pointer;
 }
 
 #delivery .card:hover{

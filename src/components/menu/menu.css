@@ -1,5 +1,8 @@
-#menu{
-    width: 26.73rem;
+#menu {
+    width: 26.75rem;
+    text-align: center;
+    padding-top: 2.37rem;
+    margin: 0 auto;
 }
 
 #menu .escolha{
