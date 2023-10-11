@@ -18,6 +18,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react"
 import ClampLines from "react-clamp-lines";
+import Social from "@/components/social/social";
 
 const lilitaOne = Lilita_One({ 
     subsets: ['latin'],
@@ -149,7 +150,8 @@ export default function Home() {
                     }
                 </motion.div>
             </motion.div>
-        </div>        
+        </div>     
+      <Social/>   
       <Delivery/>
       <Localization/>
       <Footer/>

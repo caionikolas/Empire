@@ -1,0 +1,94 @@
+#social{
+    width: 26.73rem;
+    text-align: start;
+    margin: 0 auto;
+    padding: 0 1.64rem;
+}
+
+#social .content h3{
+    color: rgba(29, 6, 5, 0.90);
+    text-align: center;
+    font-size: 1.55rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    text-transform: uppercase;
+    margin: 0 1rem;
+}
+
+#social .content p{
+    color: rgba(29, 6, 5, 0.69);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin: 0 1rem;
+}
+
+#social .listra{
+    position: relative;
+    top: 0;
+    right: 2rem;
+    width: 26.73rem;
+    margin: 1rem 0;
+}
+
+#social .listra::after{
+    background: linear-gradient(270deg, #21201B 7.41%, rgba(33, 32, 27, 0.00) 91.38%);
+}
+
+#social .listra .imgs-web{
+    display: none;
+}
+
+#social .listra .imgs{
+    display: flex;
+}
+
+#social .listra p{
+    width: 26.9rem;
+    color: rgba(29, 6, 5, 0.90);
+    text-align: center;
+    font-size: 0.85425rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.85425rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color:#F59A1B;
+    height: 1.52rem;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1024px){
+    #social{
+        width: 120rem;
+        margin: 0 auto;
+    }
+    #social .content h3{
+        padding-top: 4rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    #social .listra .imgs{
+        display: none;
+    }
+    #social .listra .imgs-web{
+        display: flex;
+    }
+    #social .listra p{
+        white-space: nowrap;
+        overflow: hidden;
+        background-color:#F59A1B;
+        display: flex;
+        align-items: center;
+        font-size: 1.75125rem;
+        line-height: 1.75125rem;
+        width: 120rem;
+        height: 3.125rem;
+        flex-shrink: 0;
+    }
+}
